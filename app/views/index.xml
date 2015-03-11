@@ -1,0 +1,15 @@
+<Alloy>
+	<Collection src="modules"/>
+	<Window class="container">
+		<TableView dataCollection="modules">
+			<TableViewRow title="{title}" character="{character}" onClick="showModule">
+			</TableViewRow>
+		</TableView>
+		<Menu id="menu" platform="android">
+			<MenuItem id="addModule"
+				title="Add module"
+				onClick="addModule"
+				showAsAction="Ti.Android.SHOW_AS_ACTION_IF_ROOM" />
+		</Menu>
+	</Window>
+</Alloy>

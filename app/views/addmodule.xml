@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class"container">
+		<View layout="vertical">
+			<TextField id="titleInput" hintText="Title..."></TextField>
+			<TextField id="characterInput" hintText="Character..."></TextField>
+			<Button id="insertModuleButton" onClick="assModule"></Button>
+		</View>
+	</Window>
+</Alloy>

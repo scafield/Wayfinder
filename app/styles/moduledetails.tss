@@ -1,0 +1,15 @@
+"#titleLabel": {
+	font: {
+		fontSize: '30'
+	},
+	left: '10'
+},
+"#characterLabel": {
+	font: {
+		fontSize: '20'
+	},
+	left: '10'
+},
+".container" : {
+	backgroundColor: 'white'
+}
